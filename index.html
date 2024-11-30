@@ -9,12 +9,13 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
+            background-color: #f5f5f5;
         }
         .container {
             max-width: 800px;
             margin: 0 auto;
         }
-        h1 {
+        h1, h2 {
             color: #333;
             text-align: center;
         }
@@ -22,12 +23,41 @@
             line-height: 1.6;
             color: #666;
         }
+        .section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .featured {
+            background: #f0f8ff;
+        }
+        .contact {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to New Society</h1>
-        <p>This is a simple webpage for our test repository. We'll be adding more content soon!</p>
+        
+        <div class="section">
+            <h2>About Us</h2>
+            <p>We are a community dedicated to exploring and sharing ideas about building a better society. Our mission is to bring people together and foster meaningful discussions about social progress.</p>
+        </div>
+
+        <div class="section featured">
+            <h2>Featured Content</h2>
+            <p>Discover our latest initiatives and projects aimed at community building and social innovation. We regularly update this section with new and exciting developments.</p>
+        </div>
+
+        <div class="section contact">
+            <h2>Contact Information</h2>
+            <p>Email: contact@newsociety.example</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Address: 123 Society Street, Community City, ST 12345</p>
+        </div>
     </div>
 </body>
 </html>
